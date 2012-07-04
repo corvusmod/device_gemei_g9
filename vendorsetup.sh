@@ -14,5 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo full_g9-userdebug
-add_lunch_combo cm_g9-userdebug
+add_lunch_combo osr_g9-eng

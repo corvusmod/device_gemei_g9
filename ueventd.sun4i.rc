@@ -17,9 +17,18 @@
 /dev/ttyUSB3			  0777   system     system
 /dev/gps                  0777   system     system
 
-# sysfs properties, for mma7660 gsensor
-/sys/devices/virtual/input/input*   name        0660  root   input
-/sys/devices/virtual/input/input*   max         0660  root   input
-/sys/devices/virtual/input/input*   min         0660  root   input
-/sys/devices/virtual/input/input*   poll        0666  root   input
+#mma7660
+/sys/devices/virtual/input/input* name 0660 root input
+/sys/devices/virtual/input/input* max 0660 root input
+/sys/devices/virtual/input/input* min 0660 root input
+/sys/devices/virtual/input/input* poll 0666 root input
 
+#mxc622x
+/dev/mxc622x			  0777   system     system
+/dev/ecompass_ctrl		  0777   system     system
+
+#ChristianTroy
+/sys/devices/platform/sw-ehci.1/usb2/2-1/2-1.1/2-1.1:1.0/bluetooth/hci0/rfkill* state  0777 system system
+/sys/devices/platform/sw_hcd_host0/usb1/1-1/1-1:1.0/bluetooth/hci0/rfkill* state  0777 system system
+/sys/devices/platform/sw-ohci.1/usb3/3-1/3-1:1.0/bluetooth/hci0/rfkill* state  0777 system system
+#ChristianTroy

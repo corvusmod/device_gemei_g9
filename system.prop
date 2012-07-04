@@ -1,7 +1,0 @@
-#
-# system.prop for g9
-#
-ro.modversion=CyanogenMod9-Corvus
-ro.product.locale.language=es
-ro.product.locale.region=ES
-ro.com.android.dateformat=dd-MM-yyyy

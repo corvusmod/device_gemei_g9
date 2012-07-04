@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Camera
-PRODUCT_PACKAGES := \
-	Camera
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-# Inherit from a10 device
-$(call inherit-product, device/allwinner/g9/device.mk)
+$(call inherit-product, device/gemei/g9/g9.mk)
+$(call inherit-product, device/gemei/g9/libraries/Android.mk)
+$(call inherit-product, device/gemei/g9/packages/Android.mk)
+$(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
+$(call inherit-product-if-exists, vendor/gemei/g9/g9-vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_g9
 PRODUCT_DEVICE := g9
 PRODUCT_BRAND := Allwinner
-PRODUCT_MODEL := CM9 on G9
+PRODUCT_MODEL := Sun4i
+PRODUCT_MANUFACTURER := Allwinner
