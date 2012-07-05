@@ -104,12 +104,12 @@ PRODUCT_PACKAGES += \
 
 # Hardware libs
 PRODUCT_PACKAGES += \
-	gralloc.sun4i \
-	display.sun4i \
-	hwcomposer.exDroid \
-	lights.sun4i \
-	gps.sun4i \
-	audio.primary.exDroid \
+	gralloc.gemei \
+	display.gemei \
+	hwcomposer.gemei \
+	lights.gemei \
+	gps.gemei \
+	audio.primary.gemei \
 	audio.a2dp.default \
 	libaudioutils \
 	libcedarxbase \

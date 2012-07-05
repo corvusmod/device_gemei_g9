@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
 	device/gemei/g9/prebuilt/etc/3g_dongle.cfg:system/etc/3g_dongle.cfg \
 	device/gemei/g9/prebuilt/etc/camera.cfg:system/etc/camera.cfg \
 	device/gemei/g9/prebuilt/etc/gps.conf:system/etc/gps.conf \
+	device/gemei/g9/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	device/gemei/g9/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
 	device/gemei/g9/prebuilt/etc/usb_modeswitch.sh:system/etc/usb_modeswitch.sh \
 	device/gemei/g9/prebuilt/etc/vold.fstab:system/etc/vold.fstab
@@ -52,8 +53,8 @@ PRODUCT_COPY_FILES += \
 	device/gemei/g9/prebuilt/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
 	device/gemei/g9/prebuilt/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
 	device/gemei/g9/prebuilt/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-	device/gemei/g9/prebuilt/lib/hw/camera.exDroid.so:system/lib/hw/camera.exDroid.so \
-	device/gemei/g9/prebuilt/lib/hw/sensors.exDroid.so:system/lib/hw/sensors.exDroid.so \
+	device/gemei/g9/prebuilt/lib/hw/camera.gemei.so:system/lib/hw/camera.gemei.so \
+	device/gemei/g9/prebuilt/lib/hw/sensors.gemei.so:system/lib/hw/sensors.gemei.so \
 	device/gemei/g9/prebuilt/lib/liballwinner-ril.so:system/lib/liballwinner-ril.so \
 	device/gemei/g9/prebuilt/lib/libMali.so:system/lib/libMali.so \
 	device/gemei/g9/prebuilt/lib/libUMP.so:system/lib/libUMP.so \
